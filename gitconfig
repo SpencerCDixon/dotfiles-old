@@ -1,0 +1,31 @@
+[user]
+  name = Spencer Dixon
+  email = spencercdixon@gmail.com
+
+[color]
+  branch = auto
+  diff = auto
+  status = auto
+
+[color "branch"]
+  current = yellow reverse
+  local = yellow
+  remote = green
+
+[color "diff"]
+  meta = yellow bold
+  frag = magenta bold
+  old = red bold
+  new = green bold
+
+[color "status"]
+  added = green
+  changed = yellow
+  untracked = cyan
+  deleted = red bold
+
+[core]
+  excludesfile = /Users/spence/.gitignore
+
+[alias]
+  glog = log --all --pretty='format:%d %Cgreen%h%Creset %an - %s' --graph
