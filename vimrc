@@ -12,6 +12,10 @@ set incsearch      " do incremental searching
 set laststatus=2   " Always display the status line
 set vb             " No audible bell
 
+" Commands Spender Added
+set cpoptions+=$
+set virtualedit=all
+
 " Switch syntax highlighting on, when the terminal has colors
 " Also switch on highlighting the last used search pattern.
 if (&t_Co > 2 || has("gui_running")) && !exists("syntax_on")
@@ -60,7 +64,7 @@ set expandtab
 set list listchars=tab:»·,trail:·
 
 " Color scheme
-colorscheme buckles
+colorscheme monokai
 highlight NonText guibg=#060606
 highlight Folded  guibg=#0A0A0A guifg=#9090D0
 

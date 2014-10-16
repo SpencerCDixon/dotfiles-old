@@ -6,23 +6,20 @@ alias aliases='vim ~/.dotfiles/aliases'
 alias box="~/Dropbox"
 alias buckles='~/.vim/bundle/vim-colors-buckles'
 alias dotfiles="~/.dotfiles"
-alias snippets='~/library/application\ support/sublime\ text\ 2/packages/user/snippity_snips/'
 alias zshrc='vim ~/.dotfiles/zshrc'
 
 # Project Shortcuts
 alias apollo="~/Dropbox/launch_academy/apollo"
 alias discourse="~/Dropbox/launch_academy/discourse"
-alias doubt="~/Dropbox/sandbox/ember/doubt"
 alias edu="~/Dropbox/launch_academy/edu"
 alias emb="~/Dropbox/sandbox/ember"
-alias enlight="~/Dropbox/enlight/"
 alias hal="~/Dropbox/launch_academy/hal"
 alias launch="~/Dropbox/launch_academy/launch_academy"
 alias notes='~/dropbox/notes'
 alias sbox="~/Dropbox/sandbox/"
 alias students="~/Dropbox/launch_academy/students"
 alias work="~/Dropbox/work"
-
+alias icode="~/Dropbox/launch_academy/icode"
 # Rails
 alias migrate="rake db:migrate db:rollback && rake db:migrate db:test:prepare"
 
@@ -53,4 +50,3 @@ alias reload="source ~/.zshrc"
 alias cpwd='pwd | pbcopy'
 alias gopen='open -a "/Applications/GitHub.app"'
 alias marked='open -a "/Applications/Marked.app"'
-# alias atom='open -a "/Applications/Atom.app"'

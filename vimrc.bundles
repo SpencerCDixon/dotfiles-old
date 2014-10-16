@@ -31,6 +31,7 @@ Bundle 'rking/ag.vim'
 Bundle 'SirVer/ultisnips'
 Bundle 'honza/vim-snippets'
 
-Bundle 'jnwhiteh/vim-golang'
+Bundle 'bling/vim-airline'
+Bundle 'bling/vim-bufferline'
 
 filetype on
