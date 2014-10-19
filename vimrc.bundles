@@ -33,5 +33,8 @@ Bundle 'honza/vim-snippets'
 
 Bundle 'bling/vim-airline'
 Bundle 'bling/vim-bufferline'
+Bundle 'vim-ruby/vim-ruby'
+Bundle 'kana/vim-textobj-user'
+Bundle 'nelstrom/vim-textobj-rubyblock'
 
 filetype on
