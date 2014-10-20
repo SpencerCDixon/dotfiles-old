@@ -36,5 +36,8 @@ Bundle 'bling/vim-bufferline'
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'kana/vim-textobj-user'
 Bundle 'nelstrom/vim-textobj-rubyblock'
+Bundle 'tpope/vim-rake'
+Bundle 'christoomey/vim-tmux-navigator'
+
 
 filetype on
