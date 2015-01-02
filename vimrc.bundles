@@ -39,5 +39,7 @@ Bundle 'nelstrom/vim-textobj-rubyblock'
 Bundle 'tpope/vim-rake'
 Bundle 'christoomey/vim-tmux-navigator'
 
+Bundle 'elixir-lang/vim-elixir'
+
 
 filetype on
